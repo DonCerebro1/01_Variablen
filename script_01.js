@@ -40,15 +40,15 @@ let ageJohn , ageMark;
 let birthYearJohn, birthYearMark;
 
 let date = new Date();                                //Konstrukter
-console.log(date.getFullYear());                      //mit getFullYear(); wird nur das Jahr angezeigt sonst das komplette Datum  
+let year = date.getFullYear();                        //mit getFullYear(); wird nur das Jahr angezeigt sonst das komplette Datum  
 
-// let year = 2021;
-// ageJohn = 25;
-// ageMark = 30;
+ 
+ ageJohn = 25;
+ ageMark = 30;
 
-// birthYearJohn = year - ageJohn;
-// birthYearMark = year - ageMark; 
+ birthYearJohn = year - ageJohn;
+ birthYearMark = year - ageMark; 
 
-// console.log("birthYearJohn: " + birthYearJohn);
-// console.log("birthYearMark: " + birthYearMark);
+console.log("birthYearJohn: " + birthYearJohn);
+ console.log("birthYearMark: " + birthYearMark);
 
